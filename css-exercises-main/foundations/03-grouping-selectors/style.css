@@ -1,0 +1,14 @@
+.yellowbee,
+.blacky {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.blacky {
+  background-color: #000;
+  color: #fff;
+}
+
+.yellowbee {
+  background-color: #ff0;
+}
