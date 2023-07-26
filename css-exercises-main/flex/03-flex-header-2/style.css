@@ -12,6 +12,18 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  display: flex;
+  /* align-content: center; # wrong */
+  justify-content: space-between;
+  padding: 8px;
+
+  /* SOLUTION
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  */
+
 }
 
 .profile-image {
@@ -45,4 +57,40 @@ a {
 
 ul {
   list-style-type: none;
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+
+  /*
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  */
+
 }
+
+.left-nav{
+  display: flex;
+  /* align-content: flex-start; */
+  align-items: center;
+  gap: 16px;
+  
+}
+
+.right-nav{
+  display: flex;
+  /* align-content: flex-end; */
+  align-items: center;
+  gap: 16px;
+}
+
+/*
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+*/

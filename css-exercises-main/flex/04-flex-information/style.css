@@ -10,7 +10,36 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 32px;
 }
+
+.container {
+
+ 
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  text-align: center; /* can be added to body too */
+  
+}
+
+.items{
+    /*  # WRONG
+        # adding this here puts the text to the right of the image
+  display: flex;
+  justify-content: space-evenly;
+  */
+ 
+  
+  max-width: 200px;
+
+  /* border:1px solid black; */
+}
+
 
 /* do not edit this footer */
 .footer {
