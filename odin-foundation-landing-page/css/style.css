@@ -16,6 +16,7 @@ ul {
     list-style-type: none;
 }
 
+
 /* nav and hero sections */
 
 .header{
@@ -41,10 +42,12 @@ padding-right: 150px;
 }
 
 
+/* hero section */
+
 .hero{
-    /* height:300px; */
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     background: #1F2937;
     color: #E5E7EB;
 }
@@ -103,6 +106,7 @@ button.signup {
 .information-items {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 52px;
     text-align: center;
     padding-top: 20px;
@@ -115,6 +119,7 @@ button.signup {
     color: #1F2937;
     justify-content: center;
     padding-bottom:25px;
+    text-align:center;
   }
 
   .items{
@@ -163,13 +168,13 @@ button.signup {
 
 
 
+/* call-to-action section */
+
 .action{
     display:flex;
     justify-content:center;
     min-width: 300px;
 
-    background:royalblue;
-    margin: 50px 200px;
     padding: 25px 0px;
     
     color:#ffffff;
@@ -177,10 +182,19 @@ button.signup {
     font-weight:500;
 }
 
+.action-box{
+  background:royalblue;
+  display:flex;
+  justify-content:center;
+  margin: 50px 200px;
+  padding: 25px 0px;
+}
+
 .action-left, .action-right{
     margin-left: 20px;
     margin-right: 20px;
     align-self: center;
+    min-width: 100px;
 }
 
 
@@ -198,6 +212,10 @@ button.action-signup {
     width:100px;
     color:#fff;
   }
+
+
+
+/* footer */
 
   .footer{
     background: #1F2937;
