@@ -113,57 +113,60 @@ button.signup {
     padding-bottom: 20px;
   }
   
-  .info-header{
+.info-header{
     font-size:36px;
     weight: extra-bold;
     color: #1F2937;
     justify-content: center;
     padding-bottom:25px;
     text-align:center;
-  }
+}
 
-  .items{
+.items{
     width: 125px;
-  }
+}
 
-  .items > img {
+.items > img {
     width:  125px;
     height: 125px;
     border: 2px solid rgb(71, 71, 255);
     border-radius: 10px;
-  }
+}
 
 
 /* quote section */
 
-  .quotes{
+  .quote{
     background-color: #E5E7EB;
 
     display:flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items:center;
     justify-content:center;
+    padding: 70px;
+  }
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+  .quote-container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    min-width: 300px;
+    max-width: 700px;
+    margin: 50px;
   }
 
   .quote-text{
-    width: 600px;
     font-size:20px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
-    padding-top:50px;
   }
 
   .quote-author{
-    width: 600px;
     font-size:14px;
     font-weight:700;
     color: #1F2937;
     text-align: right;
-    padding-bottom:50px;
   }
 
 
@@ -182,7 +185,7 @@ button.signup {
     font-weight:500;
 }
 
-.action-box{
+.action-container{
   background:royalblue;
   display:flex;
   justify-content:center;
